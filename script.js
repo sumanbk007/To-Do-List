@@ -86,8 +86,6 @@ function editTask(event) {
 
     taskInput.value = listItem.childNodes[0].textContent.trim();
 
-    // console.log(taskInput.value);
-
     saveChangeButton.addEventListener("click", () => {
       const taskText = taskInput.value.trim();
       console.log(taskText);

@@ -1,0 +1,112 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.to-do-list-conatiner{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: coral;
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 30px;
+
+    .to-do-list-header{
+
+        // width: 450px;
+        height: 40px;
+
+        #taskInput{
+
+            height: 40px;
+            width: 430px;
+            border: none;
+            background-color: rgb(231, 225, 225);
+            border-radius: 12px;
+            padding-inline: 10px;
+            font-size: 15px;
+        }
+        
+        #taskInput ::placeholder{
+
+            color: black;
+            font-size: 20px;
+            padding-inline: 5px;
+        }
+
+        #addTask{
+width: 90px;
+            height: 35px;
+                border-radius: 7px;
+                background-color: green;
+                border: none;
+        }
+
+        #saveChange{
+width: 90px;
+            height: 35px;
+                border-radius: 7px;
+                background-color: green;
+                border: none;
+               
+        }
+    }
+
+
+#taskList{
+
+
+    margin-top: 40px;
+    position: relative;
+    right: 90px;
+    li{
+
+        list-style-type:none;
+        height: 40px;
+        width: 450px;
+        background-color: rgb(137, 69, 201);
+        border-radius: 12px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding-inline: 10px;
+        margin-block: 10px;
+
+.delete-button{
+
+    border: none;
+    background-color: red;
+    height: 25px;
+    position: absolute;
+    left: 405px;
+border-radius: 5px;
+}
+
+.edit-button{
+
+    border: none;
+        background-color: rgb(160, 202, 9);
+        height: 25px;
+        position: absolute;
+        left: 360px;
+        border-radius: 5px;
+}
+
+    }
+}
+
+#tasks{
+
+   
+            margin-block: 40px;
+            position: absolute;
+            left: 376px;
+            top: 75px;
+}
+}
